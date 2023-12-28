@@ -1,0 +1,139 @@
+body {
+  
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .heading{
+    position:absolute;
+    top:45%;
+    left:45%;
+    transform:translate(-50%,-50%);
+    width:1140px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+    
+  .header {
+    text-align:left;
+    font-size: 90%;
+    margin-left:25%;
+    margin-bottom: 50px;
+    
+  }
+  
+  #center1,
+  #center2,
+  #center3,
+  #center4,
+  #center5,
+  #center6,
+  #center9 {
+    font-family:sans-serif;
+    width: 50%;
+    margin: auto;
+    line-height: 190%;
+    padding: 32px;
+    font-size: 125%;
+  }  
+  
+  #headerh2,
+  #headerh3,
+  #headerh4,
+  #headerh5,
+  #headerh6,
+  #headerh7 {
+    color: black;
+    text-align: center;
+    font-size: 126%;
+    height: 6vh;
+    margin-bottom:50px;
+    
+  }
+
+ #headerh5{
+  color:rgb(250, 155, 171);
+  font-size:30px;
+ }
+  
+  #center1,#center2, #center3,#center4 #center5, #center6, #center9 {
+    height: auto;
+  }
+    
+  #linh {
+    text-align: center;
+  }
+  
+  /* Lệnh Responsive */
+  @media only screen and (max-width: 768px) {
+    #center,
+    #center1,
+    #center2,
+    #center3,
+    #center4,
+    #center5,
+    #center6,
+    #center9,
+    #header h1,
+    #headerh2,
+    #headerh3,
+    #headerh4,
+    #headerh5,
+    #headerh6,
+    #headerh7,
+    #text {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 100%;
+      margin-top:50px;
+    }
+  
+    #header h1 {
+      font-size: 250%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    #header h1 {
+      font-size: 200%;
+    }
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .main {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .main li {
+    margin-left: 10px;
+  }
+  
+  .main li:first-child {
+    margin-left: 0;
+  }
+  
+  .main li a {
+    text-decoration: none;
+    color:black;
+    padding: 5px 10px;
+    border: 1px solid #F3F2EC;
+    
+  }
+  
+  .main li a:hover {
+    background-color:pink;
+    color: #fff;
+  }
